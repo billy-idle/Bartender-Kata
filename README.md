@@ -110,6 +110,9 @@ C:.
 http://localhost:8083/swagger-ui/index.html
 ```
 
-Se listan los endpoints desarrollados hasta el momento, los cuáles corresponden con los casos de uso implementados. 
+![alt-text][2]
+
+Se muestran los endpoints desarrollados hasta el momento, los cuáles corresponden con los casos de uso implementados. 
 
 [1]: /src/main/resources/docs/hexagonal-architecture.png
+[2]: /src/main/resources/docs/API.png
