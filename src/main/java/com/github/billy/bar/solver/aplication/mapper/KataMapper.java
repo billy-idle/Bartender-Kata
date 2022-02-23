@@ -12,9 +12,9 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Mapper(componentModel = "spring", injectionStrategy = InjectionStrategy.CONSTRUCTOR)
-public abstract class KataMapper {
+public interface KataMapper {
 
-  public Kata toKata(DatasetJpaEntity datasetJpaEntity) {
+  default Kata toKata(DatasetJpaEntity datasetJpaEntity) {
 
     List<Data> dataset = Stream.of(datasetJpaEntity.getArrayDataset().split(","))
                                .map(Integer::valueOf)
