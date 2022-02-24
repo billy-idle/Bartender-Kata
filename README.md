@@ -3,6 +3,7 @@
 ## Descripción
 
 * Este artefacto pretende ser un primer acercamiento al back-end de la aplicación web.
+* Se usa spring boot para el desarrollo.
 * Aplicando patrones de arquitectura y un desarrollo conducido por pruebas.
 
 ### Casos de uso
